@@ -38,3 +38,7 @@ fi
 
 b_log "Building posixsrv"
 make -C "phoenix-rtos-posixsrv" all install
+
+# MONITOR
+b_log "Building monitorsrv"
+make -C "phoenix-rtos-monitorsrv" all install
