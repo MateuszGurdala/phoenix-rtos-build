@@ -41,4 +41,4 @@ make -C "phoenix-rtos-posixsrv" all install
 
 # MONITOR
 b_log "Building monitorsrv"
-make -C "phoenix-rtos-monitorsrv" all install
+make -C "phoenix-rtos-monitor" all install
